@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+/* home page styles  */
+.home-conatiner{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.home-social-media-icons-01{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+.home-social-media-icons-01 > a{
+    color: black;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+/* styles for second items */
+.home-contents-02{
+    margin-left: 60px;
+    margin-top: 70px;
+}
+.home-contents-items-01 > p{
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+    padding: 3px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Monserrat", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgb(39,244,246);
+    background: linear-gradient(90deg, rgba(39,244,246,1) 30%, rgba(212,208,197,1) 100%);
+    letter-spacing: 1px;
+}
+
+.home-contents-items-02{
+    font-family: "Alata", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.home-contents-items-02 > h1{
+    color: black;
+}
+.home-contents-items-02 > h1 > span{
+    border-bottom: 3px solid black;
+    padding-bottom: 1px;
+    background: linear-gradient(to right, black, lightgray); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; 
+}
+.home-contents-items-03{
+    margin-top: 10px;
+    color: rgb(142, 139, 139);
+    font-family: 'Open Sans', sans-serif;
+}
+.home-contents-items-04{
+    margin-top: 60px;
+}
+.home-items-btn-01{
+    outline: none;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-family: "Alata", sans-serif;
+    background: rgb(244, 167, 25);
+    background: linear-gradient(90deg, rgb(244, 167, 25) 30%, rgb(233, 192, 116) 100%);
+    box-shadow: 3px 3px 7px lightgray, -3px 3px 7px lightgray;
+}
+.home-items-btn-02{
+    margin-left: 20px;
+    outline: none;
+    padding: 5px 5px;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-family: "Alata", sans-serif;
+    background-color: black;
+    box-shadow: 3px 3px 7px lightgray, -3px 3px 7px lightgray;
+}
+.home-items-btn-01:hover , .home-items-btn-02:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 4px 8px lightgray, -4px 4px 8px lightgray;
+}
+
+/* images part */
+.home-contents-03{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: 90px;
+    margin-left: 200px;
+}
+
+.profile-image {
+    position: absolute;
+    top: 2px/* Specify the top offset you want for the profile image */;
+    left: 20px/* Specify the left offset you want for the profile image */;
+    width: 220px/* Specify the width you want for the profile image */;
+    height:263px /* Specify the height you want for the profile image */;
+    z-index: 2; /* Set a higher z-index to layer on top of the background image */
+}
+.home-contents-04{
+    margin-top:25%;
+    margin-left: 40px;
+    transform: rotate(-90deg);
+}
+.home-contents-04 > p{
+    padding-left: 15px;
+    border-left: 3px solid black;
+    font-weight: bold;
+}
+
+

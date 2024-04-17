@@ -1,0 +1,75 @@
+
+/*  about page styles  */
+.about-conatiner{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 0;
+    padding-top: 30px;
+
+}
+.about-con-items-01{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    /* margin-left: 0px; */
+}
+.about-profile-image{
+    position: absolute;
+    top: 40px/* Specify the top offset you want for the profile image */;
+    left: 30px /*Specify the left offset you want for the profile image */;
+    width: 150px/* Specify the width you want for the profile image */;
+    height:153px /* Specify the height you want for the profile image */;
+    z-index: 2; /* Set a higher z-index to layer on top of the background image */
+}
+
+.about-con-items-02{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.about-con-items-content{
+    width: 700px;
+}
+.about-con-content-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+.about-con-content-slash{
+    padding-top: 10px;
+    width: 200px;
+    border-bottom: 1px solid lightgray;
+}
+.about-con-content-slash > hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about-con-content-para{
+    font-size: 16px;
+    color: rgb(180, 168, 168);
+    font-weight: 300;
+    line-height: 25px;
+}
+.about-con-items-img{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.about-con-items-img_01{
+    width: 220px;
+    height: 220px;
+}
+.about-con-items-img_02{
+    width: 300px;
+    height: 300px;
+    margin-left: 30px;
+}
+.about-con-item-imgs-right{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}

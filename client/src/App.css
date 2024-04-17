@@ -1,0 +1,74 @@
+/* remove default padding .... */
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Light theme variables */
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --icon-color: #000000;
+    --home-contents-items-02-title-color: white;
+}
+.light-theme {
+    --icon-color: black;
+    --icon-border-color: black;
+    --icon-hover-color: blue; /* Change the color to a different one on hover */
+    --icon-hover-border-color: blue; /* Change the border color on hover */
+}
+
+/* Dark theme variables */
+.dark-theme {
+    --background-color: #000000;
+    --text-color: #ffffff;
+    --icon-color: #ffffff;
+    --icon-border: #ffffff;
+    --icon-hover-color: lightblue; /* Change the color to a different one on hover */
+    --icon-hover-border-color: lightblue;
+    --home-contents-items-02-title-color: white;
+}
+
+/* Apply the variables to the entire application */
+body, .App {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+/* Apply icon color */
+.icon {
+    color: var(--icon-color);
+    border:1px solid var(--icon-border);
+    border-radius: 50%;
+    padding: 5px;
+    transition: color 0.3s, border-color 0.3s;
+}
+/* Hover effect */
+.icon:hover {
+    color: var(--icon-hover-color); 
+    border-color: var(--icon-hover-border-color); 
+}
+
+/* home-contents-items */
+.home-contents-items-02-title{
+    color: var(--home-contents-items-02-title-color);
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+    height: 8px; /* Height of the scrollbar (for horizontal scrollbar) */
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Background color of the track */
+    border-radius: 6px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the thumb */
+    border-radius: 6px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #555; /* Darker color on hover */
+}
